@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952529091374",
+    "firebase_url": "https://jobbox-63ec4.firebaseio.com",
+    "project_id": "jobbox-63ec4",
+    "storage_bucket": "jobbox-63ec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952529091374:android:5b67eba812263541",
+        "android_client_info": {
+          "package_name": "com.example.katia.job_box"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952529091374-vn2rcnhcpf0cjhtn6itdintse6h2ppsm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.katia.job_box",
+            "certificate_hash": "3c71ebf57d79ffa9d6819d2317fe04ee628f8ccf"
+          }
+        },
+        {
+          "client_id": "952529091374-5vbbntvjpctfg6gkjva20l562od9gm51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGcAFZjZ8FxcdQ5a9SUaQFGLZSSZ9Q1m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952529091374-5vbbntvjpctfg6gkjva20l562od9gm51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

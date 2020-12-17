@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">job-box</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="forget_passowrd">¿Olvidaste tu contraseña?</string>
+    <string name="access">Acceder</string>
+
+    <!-- TODO: Registro -->
+    <string name="label_user">Datos personales</string>
+    <string name="hint_username">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_newPassword">Ingresa una nueva contraseña</string>
+    <string name="hint_confirmPassword">Confirma tu nueva contraseña</string>
+    <string name="labelPassword">Su dirección de correo será su nuevo usuario</string>
+    <string name="send">Enviar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="label_quitIntro">Omitir introducción</string>
+    <string name="create_account">¿Usuario nuevo? Registrate</string>
+    <string name="slogan">La App para trabajadores</string>
+    <string name="description_img_slogan">Cerrando trato</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Siguiente</string>
+    <string name="register">Registrarse</string>
+    <string name="selec_job">¿A que te dedicas?</string>
+    <string name="description_img_cliente">Imágen de cliente</string>
+    <string name="description_img_trabajador">Imágen de trabajador</string>
+    <string name="client">Cliente</string>
+    <string name="worker">Trabajador</string>
+    <string name="name">Nombre:</string>
+    <string name="place_name">Ingrese su nombre completo</string>
+    <string name="cel">Telefono:</string>
+    <string name="place_cel">Ingrese su número telefónico</string>
+    <string name="email">Correo:</string>
+    <string name="place_email">Ingrese un correo electrónico</string>
+    <string name="address">Dirección:</string>
+    <string name="place_address">Presione para indicar su direccion</string>
+    <string name="description_user">Icono de usuario</string>
+    <string name="description_camera">Icono de camara</string>
+    <string name="description_edit">Icono de lapiz</string>
+    <string name="description_cel">Icono de celular</string>
+    <string name="description_email">Icono de correo</string>
+    <string name="description_address">Icono de dirección</string>
+    <string name="description_password">Icono de candado dorado</string>
+    <string name="please_choose">Seleccione una opción por favor</string>
+    <string name="Title_field">Title</string>
+    <string name="Subtitle_field">Subtitle</string>
+    <string name="description_slide">Imagen de la presentación</string>
+    <string name="label_rol">¿Trabajador o cliente?</string>
+    <string name="label_data_worker">Datos del trabajador</string>
+    <string name="hint_data_worker">Por favor seleccione el oficio al que se dedica</string>
+    <string name="hint_experience_worker">Ingrese sus años de experiencia</string>
+    <string name="hint_create_username">Ingrese un nombre de usuario</string>
+    <string name="hint_create_password">Ingrese una contraseña</string>
+    <string name="hint_recover_email">Ingrese el correo asociado a su cuenta</string>
+    <string name="channel_name">account_activation</string>
+    <string name="channel_description">Activaciones de cuentas</string>
+    <string name="label_switch">Utilizar mi ubicación como dirección</string>
+    <string name="label_passsword_recomendation">Utilice 8 caracteres entre letras y números</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa">Map</string>
+
+
+    <!-- TODO: Recuperar contraseña -->
+
+    <string name="txt_instructions">Escriba el correo electrónico vinculado a su cuenta en el siguiente campo para
+    que nosotros le envíemos un código de autorización y pueda cambiar su contraseña:</string>
+    <string name="txt_instructions2">Ahora escriba en el siguiente campo el código que le llegó a su correo y su nueva contraseña:</string>
+    <string name="txt_send">Ahora presione el botón de siguiente para recibir su código.</string>
+    <string name="txt_send2">Presione el botón de enviar para terminar.</string>
+    <string name="send_recover">Enviar código</string>
+    <string name="hint_recover">Ingresa el código de verificación</string>
+
+
+    <!-- TODO: Crear vacante -->
+
+    <string name="Title_vacancy">Ponle un titulo a tu post:</string>
+    <string name="job_vacancy">¿Qué tipo de trabajo necesitas?</string>
+    <string name="description_vacancy">Agrega una descripción a tu post(opcional):</string>
+    <string name="description_vacancy_date">Indica la fecha del servicio:</string>
+    <string name="hint_title">Busco trabajador para..</string>
+    <string name="hint_desc">Agrege los detalles del trabajo</string>
+
+
+    <!-- TODO: Detalles contratacion -->
+    <string name="label_nombre_trabajador">Nombre:</string>
+    <string name="label_servicios_cliente">Servicio requerido:</string>
+    <string name="label_email_cliente">Email:</string>
+    <string name="label_telefono_trabajador">Telefono:</string>
+    <string name="label_correo_trabajador">Correo:</string>
+    <string name="label_calif_trabajador">Reputación del trabajador:</string>
+    <string name="label_calif_cliente">Reputación del cliente:</string>
+
+
+    <string name="hint_costo_trabajo">Ingrese el costo del trabajo</string>
+    <string name="hint_detalles_trabajo">Detalles del trabajo (opcional)</string>
+
+    <string name="ic_nombre_trabajador">Icono de usuario</string>
+    <string name="ic_servicios_trabajador">Icono de portafolios de trabajo</string>
+    <string name="ic_telefono_trabajador">Icono de telefono</string>
+
+
+    <!-- TODO: MapaActivity -->
+
+    <string name="label_resultados_encontrados">Trabajadores encontrados:</string>
+    <string name="label_oficio_buscado">Oficio buscado: </string>
+    <string name="label_zona_buscada">Zona buscada: </string>
+    <string name="label_municipio">Municipio</string>
+    <string name="label_colonia">Colonia</string>
+    <string name="label_oficio">Oficios</string>
+    <string name="label_filtro">Filtrar por:</string>
+    <string name="label_check_oficio">Oficio</string>
+    <string name="label_check_zona">Zona</string>
+    <string name="text_solicitud_contratacion">Solicitud para:</string>
+
+
+    <string name="hint_buscarOficio">Ingrese el oficio que busca</string>
+
+
+    <!-- TODO: Fragment_inicio -->
+
+    <string name="toolbar_inicio">Inicio</string>
+
+
+    <!-- TODO: Fragment_inicio -->
+
+    <string name="toolbar_chat">Bandeja de mensajes</string>
+
+
+    <!-- TODO: Fragment_inicio -->
+
+    <string name="toolbar_account">Perfil</string>
+
+
+    <!-- TODO: activity_resultadosprueba -->
+    <string name="text_congrats">¡Felicidades!, en breve recibirás una notifiación confirmando la activación de cuenta.</string>
+    <string name="text_shame">¡Casi lo logras!, tus resultados obtenidos en la prueba estuvierón cerca de alcanzar el puntuaje requerido
+    para activar tu cuenta de usuario. Te recomendamos solicitar realizar la prueba de nuevo 5 días después</string>
+    <string name="label_calif">Calificación:</string>
+    <string name="text_status">Estado de la cuenta:</string>
+
+
+    <!-- TODO: activity_detallesusuario -->
+    <string name="text_nombre_usuario">Nombre:</string>
+    <string name="text_servicios_usuario">Servicios:</string>
+    <string name="text_telefono_usuario">Telefono:</string>
+    <string name="text_correo_usuario">Correo:</string>
+    <string name="text_btnContratar_usuario">Solicitar</string>
+    <string name="text_intructions_solicitud">Por favor seleccione la fecha en la que requiere el servicio y un breve descripción del
+    trabajo. También puede utilizar la opción de mensaje para más detalles con el trabajor.</string>
+    <string name="text_desc_solicitud">Ingrese la descripción de su trabajo</string>
+    <string name="hint_fecha_solicitud">Click para ingresar fecha</string>
+
+
+    <!-- TODO: activity_detalles_reagendar -->
+    <string name="text_intructions_reagendar">Para reagendar un empleo necesita tener como mínimo 3 días de anticipo y se le cobrará el
+    10% del costo original del trabajo solicitado.</string>
+    <string name="text_original_costo">El costo de su trabajo es de: $</string>
+    <string name="text_new_costo">Usted debe pagar : $</string>
+
+
+    <!-- TODO: CardView Contratacion -->
+    <string name="text_id_contratacion">ID Contratación:</string>
+    <string name="text_trabajador_contratacion">Trabajador:</string>
+    <string name="text_cliente_contratacion">Cliente:</string>
+    <string name="text_servicio_contratacion">Servicio:</string>
+    <string name="text_fecha_contratacion">Fecha:</string>
+    <string name="text_descripcion_contratacion">Detalles:</string>
+    <string name="text_costo_contratacion">Costo: $</string>
+    <string name="text_status_contratacion">Estatus:</string>
+    <string name="hint_comentario_contratacion">Escriba un comentario</string>
+
+
+    <!-- TODO: Dialog confirmation -->
+    <string name="text_logout_confirmation">¿Esta seguro que desea salir?</string>
+    <string name="text_payment_confirmation">¿Desea realizar el pago?</string>
+    <string name="text_delete_confirmation">¿Desea eliminar la contratación?</string>
+
+    <string name="image_upload">Subir imagen</string>
+    <string name="file_upload">Subir archivo</string>
+
+
+    <!-- TODO: fragment_account -->
+    <string name="hint_account_password">Ingrese contraseña</string>
+    <string name="hint_account_cellphone">Ingrese número telefonico</string>
+    <string name="text_button_update">Actualizar</string>
+
+    <!-- TODO: form_add_job -->
+    <string name="text_instructions_job">A continuación seleccione el nuevo empleo que desea agregar a su perfil y los años de experiencia.
+    Tendrá que realizar las pruebas correpondientes a dicho oficio, de tal manera que se acredite su experiencia en éste.</string>
+    <string name="text_select_job">Seleccione el nuevo empleo</string>
+
+    <!-- TODO: form_send_comment -->
+    <string name="text_instruction_comment">Los comentarios de la plataforma nos ayudan a recibir una retroalimentación del público que la utiliza
+        , por lo cual son muy importantes para nosotros. Un administrador atenderá en un lapso de 24hrs su comentario y recibirá una respuesta en
+        su correo.</string>
+    <string name="text_select_affair">Seleccione el asunto de su comentario</string>
+    <string name="hint_comment">Escriba un comentario</string>
+
+    <string name="ic_cancelled">Cancelado</string>
+
+    <!-- TODO: form_send_comment -->
+    <string name="title_fingerprint">Iniciar sesión con un toque</string>
+    <string name="desc_fingerprint">Coloque la yema del dedo en el escáner para verificar su identidad</string>
+    <string name="note">(El inicio de sesión con la huella dactilar hace que la aplicación inicie sesión mucho más rápido. Su dispositivo debe tener al menos una huella digital registrada en la configuración del dispositivo)</string>
+    <string name="title_activity_home">Huella dactilar</string>
+
+    <!-- TODO: form_rate_user -->
+    <string name="text_instruction_rate">A continuación, califique el servicio del trabajor/cliente, según sea el caso, de acuerdo con el desempeño
+    y trato que este mostró durante la realizacion del servicio</string>
+    <string name="text_select_rate">Seleccione una calificación</string>
+
+
+</resources>

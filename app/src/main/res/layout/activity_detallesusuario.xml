@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MapaActivity"
+    android:layout_centerHorizontal="true"
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Detalles del trabajador" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <Button
+        android:id="@+id/btnMensaje"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="24dp"
+        android:text="Mensaje"
+
+
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReputacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:isIndicator="true"
+        />
+
+    <TextView
+        android:id="@+id/txtReputacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDetalles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_calif_trabajador"
+
+        />
+
+
+    <TextView
+        android:id="@+id/labelNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgUser"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/ic_nombre"
+        android:text="@string/text_nombre_usuario" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgUser"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/labelNombre"
+        android:layout_toRightOf="@+id/labelNombre"
+
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgUser"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="@color/zxing_transparent"
+        app:civ_border_width="3dp"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/ic_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgUser"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/account"
+        />
+
+
+    <ImageView
+        android:id="@+id/ic_oficios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_nombre"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_work"
+
+        />
+
+    <ImageView
+        android:id="@+id/ic_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_oficios"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_cell" />
+
+    <TextView
+        android:id="@+id/labelTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelServicios"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/ic_telefono"
+        android:text="@string/label_telefono_trabajador" />
+
+
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtServicios"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/labelTelefono"
+        android:layout_toRightOf="@+id/labelTelefono"
+        />
+
+
+    <ImageView
+        android:id="@+id/ic_detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_telefono"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/edtDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelTelefono"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/ic_telefono"
+        android:text="@string/label_correo_trabajador" />
+
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTelefono"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/edtDetalles"
+        android:layout_toRightOf="@+id/edtDetalles"
+        />
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/text_btnContratar_usuario"
+
+        />
+
+    <TextView
+        android:id="@+id/txtServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/labelServicios"
+        android:layout_toRightOf="@+id/labelServicios"
+        />
+
+    <TextView
+        android:id="@+id/labelServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/ic_oficios"
+        android:text="@string/text_servicios_usuario"
+
+        />
+</RelativeLayout>

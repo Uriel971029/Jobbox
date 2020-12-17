@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.Fragments.Fragment_account">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:elevation="8dp"
+
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/img_perfil"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    app:civ_border_color="@color/zxing_transparent"
+                    app:civ_border_width="3dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/camara"
+
+                    />
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <iammert.com.expandablelib.ExpandableLayout
+                android:id="@+id/expandable_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:childLayout="@layout/layout_expandable_child"
+                app:parentLayout="@layout/layout_expandable_parent">
+
+            </iammert.com.expandablelib.ExpandableLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+</FrameLayout>

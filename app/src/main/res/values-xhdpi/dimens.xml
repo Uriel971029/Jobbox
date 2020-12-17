@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">210dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="marginTopSlide">40dp</dimen>
+    <dimen name="listDistance2Top">64dp</dimen>
+    <dimen name="listDistance2Bottom">64dp</dimen>
+
+    <dimen name="height_imageSpace_main">56dp</dimen>
+
+    <dimen name="height_textSpace_selectionRol">32dp</dimen>
+    <dimen name="height_imageSpace_selectionRol">32dp</dimen>
+
+</resources>

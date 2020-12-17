@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    tools:context=".activity.MapaActivity"
+    android:layout_margin="8dp"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Reagendar trabajo" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.codesgood.views.JustifiedTextView
+        android:id="@+id/txtInstrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/text_intructions_reagendar"
+        android:textColor="@color/black"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/ic_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInstrucciones"
+        android:layout_alignLeft="@+id/txtInstrucciones"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/calendar" />
+
+
+    <EditText
+        android:id="@+id/edtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInstrucciones"
+        android:layout_alignBaseline="@+id/ic_calendar"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/ic_calendar"
+        android:hint="@string/hint_fecha_solicitud"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtFecha"
+        android:layout_marginTop="8dp"
+
+        android:text="@string/text_original_costo"
+
+        />
+
+    <EditText
+        android:id="@+id/edtNewC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_calendar"
+        android:layout_marginTop="40dp"
+        android:text="@string/text_new_costo"
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/btnReagendar"
+        style="@style/button_success"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNewC"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:text="Reagendar"
+        />
+
+
+    <Button
+        android:id="@+id/btnCancelar"
+        style="@style/button_error"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNewC"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="cancelar"
+        />
+
+
+
+</RelativeLayout>

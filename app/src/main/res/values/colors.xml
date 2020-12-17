@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E6750C</color>
+    <color name="colorPrimaryDark">#CB680B</color>
+    <color name="colorAccent">#EB5757</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_sky">#56CCF2</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="color_success">#00FF00</color>
+    <color name="color_error">#FF0000</color>
+    <color name="color_paypal">#169BD7</color>
+    <color name="color_paypaldark">#003087</color>
+</resources>

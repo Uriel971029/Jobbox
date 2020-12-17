@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MapaActivity"
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Detalles de la contratación" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReputacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:isIndicator="true"
+        />
+
+    <TextView
+        android:id="@+id/txtReputacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDetalles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/label_calif_cliente"
+
+        />
+
+
+    <TextView
+        android:id="@+id/labelNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgUser"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/ic_nombre"
+        android:text="@string/label_email_cliente" />
+
+    <TextView
+        android:id="@+id/txtNombreC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgUser"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/labelNombre"
+        android:layout_toRightOf="@+id/labelNombre"
+        android:text="Marcos Uriel Trejo Velazquez"
+
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgUser"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/trato"
+        app:civ_border_color="@color/zxing_transparent"
+        app:civ_border_width="3dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/ic_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgUser"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_email"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/ic_oficios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_nombre"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_work"
+
+        />
+
+    <ImageView
+        android:id="@+id/ic_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_oficios"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_money" />
+
+    <EditText
+        android:id="@+id/edtCosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelServicios"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/ic_money"
+        android:layout_alignBaseline="@+id/ic_money"
+        android:hint="@string/hint_costo_trabajo" 
+        android:inputType="number"
+        />
+
+
+    <ImageView
+        android:id="@+id/ic_detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_money"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/edit" />
+
+    <EditText
+        android:id="@+id/edtDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCosto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/ic_detalles"
+        android:hint="@string/hint_detalles_trabajo"
+        android:inputType="textMultiLine"
+        />
+
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTelefono"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/edtDetalles"
+        android:layout_toRightOf="@+id/edtDetalles"
+        android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar"
+        style="@style/buttonStyle"
+
+        />
+
+
+    <TextView
+        android:id="@+id/txtServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombreC"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/labelServicios"
+        android:layout_toRightOf="@+id/labelServicios"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/labelServicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/ic_oficios"
+        android:text="@string/label_servicios_cliente"
+
+        />
+
+
+</RelativeLayout>

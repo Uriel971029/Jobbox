@@ -1,0 +1,168 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/txtIdContratacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_toRightOf="@+id/imagen"
+            android:text="ID Contrato: "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/txtIdCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtIdOficio"
+            android:layout_alignBaseline="@+id/txtIdOficio"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Fecha: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            />
+
+        <TextView
+            android:id="@+id/txtParticipante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/txtIdContratacion"
+            android:layout_alignLeft="@+id/txtIdContratacion"
+            android:text="Participante:"
+
+            />
+
+        <TextView
+            android:id="@+id/txtServicioC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtParticipante"
+            android:layout_alignLeft="@+id/txtIdContratacion"
+            android:layout_marginTop="8dp"
+            android:text="Servicio:"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="50dp"
+            android:layout_below="@+id/txtServicioC"
+            android:layout_alignLeft="@+id/txtServicioC"
+            android:layout_marginTop="8dp"
+            android:text="Descripción: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+
+        <TextView
+            android:id="@+id/txtCostoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDescripcion"
+            android:layout_alignLeft="@+id/txtDescripcion"
+            android:layout_marginTop="8dp"
+            android:gravity="end|left"
+            android:text="Costo"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCostoC"
+            android:layout_alignLeft="@+id/txtCostoC"
+            android:layout_marginTop="8dp"
+            android:text="Status:"
+            />
+
+
+        <ImageButton
+            android:id="@+id/btnPagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_marginLeft="36dp"
+            android:background="@drawable/button_paypal"
+            android:src="@drawable/paypal_logo"
+            />
+
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_delete"
+            android:background="@color/color_error"
+            />
+
+
+        <Button
+            android:id="@+id/btnTerminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imagen"
+            android:layout_marginLeft="24dp"
+            android:text="FINALIZAR"
+            style="@style/buttonStyle"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/btnSubirE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            android:text="SUBIR"
+            style="@style/buttonStyle"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
