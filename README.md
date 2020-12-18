@@ -8,3 +8,5 @@ This is an App aimed at the people of Morelos who work informally. His goal is t
 - The client can publish new offers to receive offers from workers who meet the requirements.
 - A Chat to get in touch between clients and workers in order to share the details of a job.
 - A rating system in which customers and workers can share the quality experience of a service
+
+![imagen_promocional](https://raw.githubusercontent.com/Uriel971029/Jobbox/master/app/src/main/res/drawable/login.jpg)
